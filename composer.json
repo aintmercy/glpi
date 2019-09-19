@@ -23,7 +23,7 @@
         "phpmailer/phpmailer": "~6.0",
         "sabre/vobject": "~4.1",
         "simplepie/simplepie": "^1.5",
-        "tecnickcom/tcpdf": "~6.2.16",
+        "tecnickcom/tcpdf": "~6.2.16 || ~6.3.0",
         "zendframework/zend-cache": "^2.8",
         "zendframework/zend-i18n": "^2.8",
         "zendframework/zend-serializer": "^2.8",
