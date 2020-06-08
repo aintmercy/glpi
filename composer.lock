@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c2ff462b27a40cc5b8b87bfcee9e118b",
+    "content-hash": "6e9d0aa8ebfdf04abab33a15ef08ead5",
     "packages": [
         {
             "name": "container-interop/container-interop",
@@ -35,27 +35,28 @@
             ],
             "description": "Promoting the interoperability of container objects (DIC, SL, etc.)",
             "homepage": "https://github.com/container-interop/container-interop",
+            "abandoned": "psr/container",
             "time": "2017-02-14T19:40:03+00:00"
         },
         {
             "name": "elvanto/litemoji",
-            "version": "1.4.4",
+            "version": "2.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/elvanto/litemoji.git",
-                "reference": "17bf635e4d1a5b4d35d2cadf153cd589b78af7f0"
+                "reference": "a71f785642a93194d0b88edebcc5d6ca0b07d282"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/elvanto/litemoji/zipball/17bf635e4d1a5b4d35d2cadf153cd589b78af7f0",
-                "reference": "17bf635e4d1a5b4d35d2cadf153cd589b78af7f0",
+                "url": "https://api.github.com/repos/elvanto/litemoji/zipball/a71f785642a93194d0b88edebcc5d6ca0b07d282",
+                "reference": "a71f785642a93194d0b88edebcc5d6ca0b07d282",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.4"
+                "php": ">=5.6"
             },
             "require-dev": {
-                "milesj/emojibase": "3.1.0",
+                "milesj/emojibase": "5.0.1",
                 "phpunit/phpunit": "^5.0"
             },
             "type": "library",
@@ -73,7 +74,7 @@
                 "emoji",
                 "php-emoji"
             ],
-            "time": "2018-09-28T05:23:38+00:00"
+            "time": "2020-06-08T05:24:49+00:00"
         },
         {
             "name": "iamcal/lib_autolink",
@@ -157,6 +158,7 @@
                 "scss",
                 "stylesheet"
             ],
+            "abandoned": "scssphp/scssphp",
             "time": "2018-07-22T01:22:08+00:00"
         },
         {
@@ -1293,6 +1295,7 @@
                 "psr-6",
                 "zf"
             ],
+            "abandoned": "laminas/laminas-cache",
             "time": "2018-05-01T21:58:00+00:00"
         },
         {
@@ -1347,6 +1350,7 @@
                 "events",
                 "zf2"
             ],
+            "abandoned": "laminas/laminas-eventmanager",
             "time": "2018-04-25T15:33:34+00:00"
         },
         {
@@ -1415,6 +1419,7 @@
                 "i18n",
                 "zf"
             ],
+            "abandoned": "laminas/laminas-i18n",
             "time": "2018-05-16T16:39:13+00:00"
         },
         {
@@ -1465,6 +1470,7 @@
                 "json",
                 "zf"
             ],
+            "abandoned": "laminas/laminas-json",
             "time": "2018-01-04T17:51:34+00:00"
         },
         {
@@ -1522,6 +1528,7 @@
                 "serializer",
                 "zf"
             ],
+            "abandoned": "laminas/laminas-serializer",
             "time": "2018-05-14T18:45:18+00:00"
         },
         {
@@ -1590,6 +1597,7 @@
                 "servicemanager",
                 "zf"
             ],
+            "abandoned": "laminas/laminas-servicemanager",
             "time": "2018-12-22T06:05:09+00:00"
         },
         {
@@ -1636,6 +1644,7 @@
                 "stdlib",
                 "zf"
             ],
+            "abandoned": "laminas/laminas-stdlib",
             "time": "2018-08-28T21:34:05+00:00"
         }
     ],
@@ -2791,6 +2800,7 @@
             ],
             "description": "This tool check syntax of PHP files about 20x faster than serial check.",
             "homepage": "https://github.com/JakubOnderka/PHP-Parallel-Lint",
+            "abandoned": "php-parallel-lint/php-parallel-lint",
             "time": "2018-02-24T15:31:20+00:00"
         },
         {
@@ -2859,16 +2869,16 @@
             "time": "2017-05-10T09:20:27+00:00"
         },
         {
-            "name": "mikey179/vfsStream",
+            "name": "mikey179/vfsstream",
             "version": "v1.6.5",
             "source": {
                 "type": "git",
-                "url": "https://github.com/mikey179/vfsStream.git",
+                "url": "https://github.com/bovigo/vfsStream.git",
                 "reference": "d5fec95f541d4d71c4823bb5e30cf9b9e5b96145"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mikey179/vfsStream/zipball/d5fec95f541d4d71c4823bb5e30cf9b9e5b96145",
+                "url": "https://api.github.com/repos/bovigo/vfsStream/zipball/d5fec95f541d4d71c4823bb5e30cf9b9e5b96145",
                 "reference": "d5fec95f541d4d71c4823bb5e30cf9b9e5b96145",
                 "shasum": ""
             },
@@ -2905,7 +2915,7 @@
             "time": "2017-08-01T08:02:14+00:00"
         },
         {
-            "name": "natxet/CssMin",
+            "name": "natxet/cssmin",
             "version": "v3.0.6",
             "source": {
                 "type": "git",
@@ -2996,6 +3006,7 @@
                 "javascript",
                 "minification"
             ],
+            "abandoned": true,
             "time": "2016-04-19T09:28:22+00:00"
         },
         {
